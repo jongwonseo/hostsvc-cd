@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hostservice-svc
+spec:
+  selector:
+    app: hostservice # deploy에서 실행중인 파드의 라벨
+  ports:
+  - port: 80
+    targetPort: 8080
