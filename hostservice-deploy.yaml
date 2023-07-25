@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: jongyang/hostservice:eb72928fd492b1088cf140d3051ad7373341a5eb
+        image: jongyang/hostservice:a33d2ed9967965afbf017cd1933b6b844c5cd36e
         resources:
           limits:
             memory: "128Mi"
